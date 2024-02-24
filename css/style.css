@@ -106,7 +106,6 @@ body {
 /* ========================================================================
   Hover End
  ========================================================================== */
- @media screen and (min-width: 400px) {
     #preloader {
         background: #fff;
         bottom: 0;
@@ -144,7 +143,6 @@ body {
     text-align: center;
     top: 65%;
 }
- }
 .parallex {
     background-attachment: fixed;
     background-position: center;
@@ -316,7 +314,6 @@ ul.nav li.active a:before {
     -webkit-transition: all 0.3s;
 }
 /*Slider-stylesheets-include-here*/
-@media screen and (min-width:400px) {
 #home-carousel .item {
     background-position: center top;
     background-repeat: no-repeat;
@@ -387,7 +384,6 @@ ul.nav li.active a:before {
 }
 #home-carousel:hover .home-carousel-right {
     right: 0;
-}
 }
 /* Carousel animation */
 #home-carousel .item h1,

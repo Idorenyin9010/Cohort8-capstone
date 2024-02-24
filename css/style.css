@@ -106,7 +106,7 @@ body {
 /* ========================================================================
   Hover End
  ========================================================================== */
- @media (min-width: 576px) {
+ @media (min-width: 390px) {
     #preloader {
         background: #fff;
         bottom: 0;
@@ -316,7 +316,7 @@ ul.nav li.active a:before {
     -webkit-transition: all 0.3s;
 }
 /*Slider-stylesheets-include-here*/
-@media (min-width: 576px){
+@media (min-width: 390px){
 #home-carousel .item {
     background-position: center top;
     background-repeat: no-repeat;
@@ -390,7 +390,7 @@ ul.nav li.active a:before {
 }
 }
 /* Carousel animation */
-@media (min-width: 576px){
+@media (min-width: 390px){
 #home-carousel .item h1,
 #home-carousel .item h2,
 #home-carousel .item p {

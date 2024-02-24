@@ -196,7 +196,7 @@ top:10px;
     top: 20%;
 }
 }
-@media all and (min-width: 576px) and (max-width: px) {
+@media all and (min-width: 576px) and (max-width: 479px) {
 #slider-video {
     position: relative;
 	}

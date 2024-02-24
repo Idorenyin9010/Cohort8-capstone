@@ -106,6 +106,16 @@ body {
 /* ========================================================================
   Hover End
  ========================================================================== */
+ @media (min-width: 576px) {
+    #preloader {
+        background: #fff;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 9999;
+}
 #preloader {
     background: #fff;
     bottom: 0;
@@ -134,6 +144,7 @@ body {
     text-align: center;
     top: 65%;
 }
+ }
 .parallex {
     background-attachment: fixed;
     background-position: center;
@@ -305,7 +316,7 @@ ul.nav li.active a:before {
     -webkit-transition: all 0.3s;
 }
 /*Slider-stylesheets-include-here*/
-
+@media (min-width: 576px){
 #home-carousel .item {
     background-position: center top;
     background-repeat: no-repeat;
@@ -377,8 +388,9 @@ ul.nav li.active a:before {
 #home-carousel:hover .home-carousel-right {
     right: 0;
 }
+}
 /* Carousel animation */
-
+@media (min-width: 576px){
 #home-carousel .item h1,
 #home-carousel .item h2,
 #home-carousel .item p {
@@ -419,6 +431,7 @@ ul.nav li.active a:before {
     -ms-transition: all 0.5s ease-in-out 0.45s;
     -o-transition: all 0.5s ease-in-out 0.45s;
     transition: all 0.5s ease-in-out 0.45s;
+}
 }
 /*About-stylesheets-include-here*/
 /*About section*/

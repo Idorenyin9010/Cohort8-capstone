@@ -469,7 +469,7 @@ ul.nav li.active a:before {
 }
 #portfolio .card{
     border-radius: 7px;
-    border: 2px solid #f30808;
+    border: 2px solid #df5c2c;
     height: fit-content;
     margin-bottom: 20px;
 }
@@ -478,11 +478,11 @@ ul.nav li.active a:before {
 }
 #portfolio p{
     font-size: 13px;
-    color: rgb(245, 232, 208);
+    color: rgb(249, 87, 33);
 }
 #portfolio h4{
     font-size: large;
-    color: rgb(245, 232, 208);
+    color: rgb(251, 66, 5);
 }
 a.btn-success {
     background: rgb(2, 105, 2);

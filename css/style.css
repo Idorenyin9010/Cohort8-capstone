@@ -482,7 +482,7 @@ ul.nav li.active a:before {
     background-color: #353434;
     border-radius: 7px;
     border: 2px solid #494848;
-    padding: 15px;
+    padding: 10px;
     height: fit-content;
     margin-bottom: 20px;
 }
